@@ -1,0 +1,263 @@
+@charset "utf-8";
+*{
+			margin: 0;
+			padding: 0;
+		}
+		p{
+			/*color: blue;*/
+		}
+		h6{
+			color: hotpink;
+			
+		}
+		header{
+			width: 960px;
+			height: 150px;
+			background-color: #220D50;
+			color: white;
+			text-align: center;
+		}
+		h1{
+    width: 500px;
+    height: 150px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 50px;
+		}
+		nav{
+    width: 960px;
+    height: auto;
+    background-color: #630661;
+    padding-top: 10px;
+    padding-bottom: 10px;
+		}
+		main{
+    width: 960px;
+    height: auto;
+    background-color: #D3C3F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+		}
+		footer{
+			width: 960px;
+			height: 80px;
+			background-color: #220D50;
+		}
+		header,nav,main,footer{
+			margin-left: auto;
+			margin-right: auto;
+		}
+		section{
+			width: 800px;
+			height: auto;
+			background-color: #DAA7EC;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			padding: 20px;
+		}
+
+		h2{
+			padding: 10px;
+			color:#E7576E;
+		}
+#img1 {
+    width: 70%;
+    height: 70%;
+}
+.img_ghibli_f {
+    width: 25%;
+    height: auto;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 40px;
+    padding-bottom: 15px;
+}
+main section p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#bg_img_1 {
+    background-image: url(../Medios/Im%C3%A1genes/fondo_ghibli.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.9;
+}
+.img_ghibli_filtros {
+    margin: 10px;
+    width: 30%;
+    height: auto;
+}
+#img_filtro_bnw {
+    filter: grayscale(100%);
+}
+
+
+
+
+#img_float_der {
+    float: right;
+}
+#img_filtro_inv {
+    filter: invert(90%);
+}
+#img_filter_blur {
+    filter: blur(2.5px);
+}
+
+
+
+
+
+		footer h6{
+    color: yellow;
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+		}#img_float_izq {
+    float: left;
+}
+#menu_interno li {
+    width: 200px;
+    height: 40px;
+    background-color: #CD5CD0;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFD4DE;
+    font-size: 18px;
+    padding-top: 25px;
+}
+ #navegacion li {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    height: 20px;
+    color: #FFD1D1;
+    font-size: 18px;
+    vertical-align: middle;
+    background-color: #D97CC7;
+    border-radius: 15px;
+    border: 3px solid #FFB6BF;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+				  #navegacion li a:link{
+    color: #FFC5C6;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navegacion li a:hover {
+     color: #FFBBD4;
+    font-size: 23px;
+}
+#marcador_dos {
+}
+#marcador_tres {
+}
+#marcador_cuatro {
+}
+#marcador_uno {
+}
+#tabla_uno {
+    width: 700px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_uno thead tr th {
+    background-color: #B768B9;
+    height: 40px;
+    border: 2px solid #5C2387;
+}
+#tabla_uno tbody tr td {
+    background-color: #FDA2B0;
+    color: #1E0732;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 2px solid #F33A6E;
+    height: 35px;
+}
+.tabla_dos {
+    background-color: #FFAAC7;
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.tabla_dos tbody tr td {
+    padding: 10px;
+}
+.tabla_dos thead tr th {
+    padding: 10px;
+    background-color: #F8507F;
+    color: #F4EEEE;
+}
+.tabla_dos tbody tr:hover {
+    background-color: #A550D7;
+}
+
+
+
+
+.tabla_dos {
+}
+#img1 {
+}
+
+.img_ghibli_f {
+}
+#img_float_der {
+}
+#img_float_izq {
+}
+#bg_img_1 {
+}
+.img_ghibli_filtros {
+}
+#img_filtro_bnw {
+}
+#img_filtro_inv {
+}
+#img_filter_blur {
+}
+#img_filter_brillo {
+    filter: brightness(70%);
+}
+#img_filter_contraste {
+    filter: contrast(150%);
+}
+#img_filter_opacity {
+    filter: opacity(50%);
+}
+#img_filter_satu {
+    filter: saturate(170%);
+}
+#img_filter_sepia {
+    filter: sepia(100%);
+}
+.img_sombras {
+    width: 70%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px gray);
+}
+.img_yop {
+    width: 70%;
+    height: auto;
+    margin-left: 120px;
+}

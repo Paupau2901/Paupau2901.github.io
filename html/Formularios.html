@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		p{
+			/*color: blue;*/
+		}
+		h6{
+			color: hotpink;
+			
+		}
+		header{
+			width: 960px;
+			height: 150px;
+			background-color: #220D50;
+			color: white;
+			text-align: center;
+		}
+		h1{
+    width: 500px;
+    height: 150px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 50px;
+		}
+		nav{
+	 width: 960px;
+    height: auto;
+    background-color: #630661;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+		}
+		main{
+    width: 960px;
+    height: auto;
+    background-color: #D3C3F5;
+    padding-top: 30px;
+		}
+		footer{
+			width: 960px;
+			height: 80px;
+			background-color: #220D50;
+		}
+		header,nav,main,footer{
+			margin-left: auto;
+			margin-right: auto;
+		}
+		section{
+			width: 800px;
+			height: auto;
+			background-color: #DAA7EC;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			padding: 20px;
+		}
+		h2{
+			padding: 10px;
+			color:#E7576E;
+		}
+		footer h6{
+    color: yellow;
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+		}
+#form1 label {
+    color: #863AC7;
+    font-weight: bold;
+    font-size: 16px;
+}
+    input[type=text] {
+    font-style: italic;
+    color: #130966;
+}
+    .tabla_style_1 {
+    width: 50%;
+    border-style: none;
+}
+    #form2 .tabla_style_1 td {
+    /* [disabled]height: 50px; */
+    border-style: none;
+}
+    #form2 {
+    width: 60%;
+    height: 200px;
+    background-color: #FFBBCB;
+    border: 8px solid #E52B54;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+#form3 #textarea {
+    width: 100%;
+    height: 100px;
+}
+#form3 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #FFB2B2;
+}
+#form2 #boton2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F36089;
+    color: #FBEAEA;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    .celda_centrada {
+    text-align: center;
+}
+#form2 #pais {
+    background-color: #EC246F;
+    color: #FFCCCC;
+}
+    .tabla_centrada {
+    margin-left: auto;
+    margin-right: auto;
+}
+    main section form {
+    padding-top: 30px;
+}
+    #form3 #email2 {
+    width: 100%;
+}
+    .boton_centrar {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+		#navegacion li a:link{
+   color: #FFC5C6;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navegacion li a:hover {
+    color: #FFBBD4;
+    font-size: 23px;
+}
+    #navegacion li {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    height: 20px;
+    color: #FFD1D1;
+    font-size: 18px;
+    vertical-align: middle;
+    background-color: #D97CC7;
+    border-radius: 15px;
+    border: 3px solid #FFB6BF;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+    </style>
+	
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+  &nbsp;</header>
+<nav>
+	<ul id="navegacion">
+	  <li><a href="../Index.html">Inicio</a></li>
+	  <li><a href="Formatos_de_texto.html">Formatos</a></li>
+	  <li><a href="Listas.html">Listas</a></li>
+	  <li><a href="Enlaces.html">Enlaces</a></li>
+	  <li><a href="Tablas.html">Tablas</a></li>
+	  <li><a href="Imagenes.html">Imágenes</a></li>
+	  <li><a href="Audio.html">Audio</a></li>
+    <li><a href="Video.html">Vídeo</a></li>
+    <li><a href="Formularios.html">Formulario</a></li>
+</ul></nav>
+<main>
+  <section>
+    <h2>Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptatibus beatae tenetur sed voluptate temporibus! Illum beatae, temporibus non, nostrum sapiente labore inventore dolorem fuga, amet quis ab. Labore, facilis.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      &nbsp;
+    </form>
+  </section>
+<section>
+    <h2>Formulario con radiobutton</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque dicta aut rerum dolores ducimus, qui quos ea quaerat nihil eveniet vitae! Itaque doloremque nihil unde repellat ab, quo ea consequuntur.</p>
+    <form action="Procesamiento.html" method="post" name="form2" id="form2">
+     <label>Elige tu género<br>
+      </label>
+	  <table width="200" border="1" class="tabla_style_1 celda_centrada tabla_centrada"> 
+        <tr>
+          <td>
+            <label>
+            <input type="radio" name="Genero" value="Femenino" id="Genero_0">
+            Femenino</label></td>
+        </tr>
+		  <tr>
+	      <td><label>
+	        <input type="radio" name="Genero" value="Masculino" id="Genero_1">
+	        Masculino</label></td>
+        </tr>
+      </table>
+	  <label for="pais">¿De que país nos visitas?:</label>
+	  <select name="pais" id="pais">
+	    <option value="mx">México</option>
+	    <option value="esp">España</option>
+	    <option value="ar">Argentina</option>
+	    <option value="it">Italia</option>
+	    <option value="us">Estados Unidos</option>
+      </select>
+	  <p>
+	    <label>¿Dónde residirás durante tu estancia en el país?</label>
+		  <br>
+	    <label>
+	      <input type="checkbox" name="residencia_temporal" value="domicilio_particular" id="residencia_temporal_0">
+	      Casa de un amigo</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="residencia_temporal" value="hotel" id="residencia_temporal_1">
+	      Hotel</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="residencia_temporal" value="airbnb" id="residencia_temporal_2">
+	      Airbnb</label>
+	    <br>
+      </p>
+<input type="submit" name="boton2" id="boton2" value="Enviar">
+&nbsp;
+    </form>
+&nbsp;</section>
+  <section>
+    <h2>Formulario con 5 inputs distintos</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates unde, facilis perspiciatis iure, fuga autem fugit dolores molestiae esse, accusamus quae mollitia, commodi iste. Laborum repellat suscipit quis, consequatur. Molestias?</p>
+    <form>
+  <label for="fname">Nombre/s:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Apellidos:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+	  
+    <form>
+  <label for="username">Usuario:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Contraseña:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form>
+	  <form>
+  <label for="birthday">Selecciona tu día de nacimiento:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
+	  <form>
+  <label for="email">Escribe tu correo electrónico:</label>
+  <input type="email" id="email" name="email">
+</form>
+	  <input type="submit" name="submit3" id="submit3" value="Enviar">
+	  <input type="reset" name="reset" id="reset" value="Restablecer">
+	   
+  &nbsp;</section>
+  <section>
+    <h2>Contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nam quis provident aliquam magnam nemo, dicta fuga veritatis, suscipit quasi laudantium libero odit! Eaque quibusdam reiciendis quidem quo inventore sed!</p>
+    <form id="form3" name="form3" method="post">
+      <label for="email2">Email:</label>
+      <input type="email" name="email2" id="email2">
+		<br><br>
+	  <label for="textarea">Comentario:</label>
+	  <textarea name="textarea" id="textarea"></textarea>
+		<input name="submit2" type="submit" value="Enviar">
+      &nbsp;
+    </form>
+    &nbsp;</section>
+</main>
+<footer>
+  <h6>Elaborado por Paola Jazmín Hespérides Salazar</h6>
+&nbsp;</footer>
+</body>
+</html>
